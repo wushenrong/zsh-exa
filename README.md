@@ -4,8 +4,6 @@ Another exa aliases plugin for zsh that combines other zsh-exa plugins, also
 adds the default bash `ls` aliases and changes some aliases to avoid conflicts
 with other commands that `exa` does not replace.
 
-Also includes the `ls`, and `tree` equivalent if `exa` is not installed.
-
 This combines the following plugins:
 
 - [zsh-exa (DarrinTisdale)](https://github.com/DarrinTisdale/zsh-aliases-exa)
@@ -17,6 +15,8 @@ This combines the following plugins:
 - [zsh-exa (zplugin)](https://github.com/zplugin/zsh-exa) - Only the check for
   exa and aliases.
 - [exa-ls](https://github.com/birdhackor/zsh-exa-ls-plugin)
+
+For `ls` see the [zsh-ls](https://github.com/TwoPizza9621536/zsh-ls)
 
 ## Usage
 
@@ -35,13 +35,6 @@ Finally, add zsh-exa to the plugins array of your zshrc file:
 
 ```bash
 plugins=(... zsh-exa)
-```
-
-Or if you are using `ls` then add zsh-ls to the plugins array of your zshrc
-file:
-
-```bash
-plugins=(... zsh-ls)
 ```
 
 ## License

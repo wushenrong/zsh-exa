@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Samuel Wu
+#
+# SPDX-License-Identifier: CC0-1.0
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.3.0
