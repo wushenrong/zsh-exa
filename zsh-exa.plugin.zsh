@@ -7,7 +7,7 @@ if ! type exa >/dev/null 2>&1; then
     return 1
 fi
 
-export TIME_STYLE="${TIME_STYLE:long-iso}"
+export TIME_STYLE="${TIME_STYLE:-long-iso}"
 
 alias ls='exa -Fgh --color-scale --git --group-directories-first --icons'
 alias l.='ls -d .*'
