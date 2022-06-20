@@ -28,7 +28,7 @@ manager which is `$ZSH_CUSTOM`, the following is for
 [Oh My Zsh](https://ohmyz.sh/) which is `~/.oh-my-zsh/custom/plugins`.
 
 ```bash
-git clone https://github.com/RitchieS/zsh-exa.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-exa
+git clone https://github.com/TwoPizza9621536/zsh-exa.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-exa
 ```
 
 Finally, add zsh-exa to the plugins array of your zshrc file:
