@@ -39,10 +39,8 @@ plugins=(... exa)
 
 ## License
 
-Under the MIT License with the following SPDX expressions:
+Under the MIT License with the following SPDX expression:
 
 ```text
-SPDX-FileCopyrightText: 2022 Samuel Wu
-
 SPDX-License-Identifier: MIT
 ```
