@@ -23,7 +23,7 @@ For `ls` see the [zsh-ls](https://github.com/TwoPizza9621536/zsh-ls)
 To use it, install [`exa`](https://the.exa.website/) first otherwise use `ls`
 instead.
 
-Then clone this repository into the custom plugins directory as exa of your zsh
+Then clone this repository into the custom plugins directory as `exa` of your zsh
 plugin manager which is `$ZSH_CUSTOM`, the following is for
 [Oh My Zsh](https://ohmyz.sh/) which is `~/.oh-my-zsh/custom/plugins`.
 
@@ -31,7 +31,7 @@ plugin manager which is `$ZSH_CUSTOM`, the following is for
 git clone https://github.com/TwoPizza9621536/zsh-exa.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/exa
 ```
 
-Finally, add zsh-exa to the plugins array of your zshrc file as exa:
+Finally, add exa to the plugins array of your zshrc file:
 
 ```bash
 plugins=(... exa)
