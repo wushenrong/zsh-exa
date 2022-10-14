@@ -1,5 +1,3 @@
-# SPDX-FileCopyrightText: 2022 Samuel Wu
-#
 # SPDX-License-Identifier: MIT
 
 if ! type exa >/dev/null 2>&1; then
