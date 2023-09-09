@@ -1,4 +1,6 @@
-# zsh-exa
+# Use [eza](https://github.com/eza-community/eza) and [zsh-eza](https://github.com/twopizza9621536/zsh-eza), exa is unmaintained
+
+## zsh-exa
 
 Another exa aliases plugin for zsh that combines other zsh-exa plugins, also
 adds the default bash `ls` aliases and changes some aliases to avoid conflicts

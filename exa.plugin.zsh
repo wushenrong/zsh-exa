@@ -1,5 +1,8 @@
 # SPDX-License-Identifier: MIT
 
+print "exa is unmaintained and decapitated. Please use eza and zsh-eza." >&2
+return 1
+
 if ! type exa >/dev/null 2>&1; then
     print "exa not found. Please install exa before using this plugin or use zsh-ls plugin." >&2
     return 1
